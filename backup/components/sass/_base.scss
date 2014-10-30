@@ -1,0 +1,57 @@
+/* **************************************************
+	base
+
+	************************************************ */
+
+//  General
+body {
+	background: white;
+	color:lighten(#000, 25);
+	font-family:$font-primary;
+	font-weight:normal;
+	font-size:1em;
+	line-height:120%;
+}
+
+
+
+strong{
+	color:#000;
+	font-weight:bold;
+}
+
+#{headings()}{
+	font-weight: bold;
+	color:lighten(#000, 15);
+}
+
+h1{
+	color: white;
+	font-weight: normal;
+}
+
+h2{
+	font-weight:normal;
+	margin:10px 0px 0px 0px;
+	font-size:1.2em;
+}
+
+h4{
+	font-weight:normal;
+	margin:10px 0px 0px 0px;
+	font-size:1rem;
+}
+
+a {
+	color: $gray;
+    text-decoration: none;
+	&:hover{
+		color: #F4F4F4;
+	}
+}
+
+
+
+
+
+

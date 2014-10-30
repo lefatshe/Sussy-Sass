@@ -1,0 +1,23 @@
+/* **************************************************
+	state
+
+	************************************************ */
+@import "breakpoint";
+// grid-settings
+$mobile-first	   : 400px;
+$tablet-second     : 700px;
+$desktop-last      :960px;
+
+$susy:(
+	columns: 12,
+	gutters: 1/4,
+	math: fluid,
+	gutter-position: inside,
+);
+
+
+// switch off slide parameter via CSS
+
+.rg-view, .es-carousel-wrapper{
+	display:none !important;
+}
